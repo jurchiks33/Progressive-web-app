@@ -109,3 +109,51 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.banner {
+    background: linear-gradient(135deg, #5EE7DF 0%, #B490CA 100%);
+    padding: 3rem 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.benefit-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.newsletter {
+    background: #333;
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input, .newsletter button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+.newsletter button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
