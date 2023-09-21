@@ -41,14 +41,23 @@
 
         <section class="team">
             <h2>Meet Our Team</h2>
-            <div class="team-member">
+            <div class="team-member" onclick="showInfo('John Doe - CEO')">
                 <img src="/pictures/team-member1.jpeg" alt="Team Member 1">
                 <p>John Doe - CEO</p>
             </div>
-            <div class="team-member">
+            <div class="team-member" onclick="showInfo('Juris Whitebeard - CTO')">
                 <img src="/pictures/team-member2.jpeg" alt="Team Member 2">
                 <p>Juris Whitebeard - CTO</p>
             </div>
         </section>
 
     </main>
+
+    <script>
+        function showInfo(name) {
+            alert('You clicked on ' + name);
+        }
+    </script>
+
+    </body>
+    </html>
