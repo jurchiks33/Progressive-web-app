@@ -195,3 +195,40 @@ footer a:hover {
 .product-btn:hover {
     background-color: #0056b3;
 }
+
+.about-intro {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.mission, .vision{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
